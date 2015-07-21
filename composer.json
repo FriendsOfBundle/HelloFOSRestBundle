@@ -1,0 +1,32 @@
+{
+    "name": "friendsofbundle/elastica-bundle",
+    "type": "symfony-bundle",
+    "description": "Hello Symfony2 FOSElasticaBundle",
+    "keywords": ["doctrine2", "elastica", "elasticsearch", "mongodb", "propel", "search"],
+    "homepage": "http://friendsofbundle.github.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hoang Thien An",
+            "homepage": "https://hoangthienan.com"
+        },
+        {
+            "name": "FriendsOfBundle Community",
+            "homepage": "https://github.com/friendsofbundle/HelloFOSElasticaBundle/contributors"
+        }
+    ],
+    "require": {
+        "friendsofsymfony/elastica-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "FOB\\HelloElasticaBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.1-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
