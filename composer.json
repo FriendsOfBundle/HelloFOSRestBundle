@@ -1,8 +1,8 @@
 {
-    "name": "friendsofbundle/elastica-bundle",
+    "name": "friendsofbundle/rest-bundle",
     "type": "symfony-bundle",
-    "description": "Hello Symfony2 FOSElasticaBundle",
-    "keywords": ["doctrine2", "elastica", "elasticsearch", "mongodb", "propel", "search"],
+    "description": "Hello Symfony2 FOSRestBundle",
+    "keywords": ["rest"],
     "homepage": "http://friendsofbundle.github.io",
     "license": "MIT",
     "authors": [
@@ -12,15 +12,15 @@
         },
         {
             "name": "FriendsOfBundle Community",
-            "homepage": "https://github.com/friendsofbundle/HelloFOSElasticaBundle/contributors"
+            "homepage": "https://github.com/friendsofbundle/HelloFOSRestBundle/contributors"
         }
     ],
     "require": {
-        "friendsofsymfony/elastica-bundle": "dev-master"
+        "friendsofsymfony/rest-bundle": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "FOB\\HelloElasticaBundle\\": ""
+            "FOB\\HelloRestBundle\\": ""
         }
     },
     "extra": {
